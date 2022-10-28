@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="css/Reg_Log.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">Registration Page</div>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" placeholder="Enter your first name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" placeholder="Enter your last name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter your number" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Gender</span>
+                        <select name="gender" id="sex">
+                            <option value="male">Male</option>
+                            <option value="fmale">Female</option>
+                        </select>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Date of Birth</span>
+                        <input type="date" placeholder="Enter your date of birth" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Favorite Color</span>
+                        <input type="color" id="favcolor" name="favcolor" value="#ff0000" required>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Register">
+                </div>
+
+                <div id="loginn" class="button">
+                    <input type="button" onclick="location.href='login.html'" value="Login">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
